@@ -1,10 +1,27 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import "./index.css";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    async lazy() {
+      const component = await import ("./pages/index");
+      return { Component: component.default };
+    }
+  },
+  {
+    path: "/about",
+    async lazy() {
+      const component = await import ("./pages/about");
+      return { Component: component.default };
+    }
+  }
+])
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )
