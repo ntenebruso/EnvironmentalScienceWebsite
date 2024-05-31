@@ -14,10 +14,14 @@ export default function NavBar({
                 <nav>
                     <ul className="flex items-center justify-between space-x-6 font-semibold">
                         <li>
-                            <Link to="/">Home</Link>
+                            <Link className="hover:text-green-600" to="/">
+                                Home
+                            </Link>
                         </li>
                         <li>
-                            <Link to="/about">About</Link>
+                            <Link className="hover:text-green-600" to="/about">
+                                Data
+                            </Link>
                         </li>
                     </ul>
                 </nav>
