@@ -5,6 +5,7 @@ export default {
         extend: {
             fontFamily: {
                 sans: "Inter Variable",
+                serif: "Lora Variable",
             },
         },
     },

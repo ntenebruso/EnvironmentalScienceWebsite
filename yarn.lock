@@ -250,6 +250,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource-variable/inter/-/inter-5.0.18.tgz#3a418bdb9fb6310f7ea715b8bb15644c23125520"
   integrity sha512-rJzSrtJ3b7djiGFvRuTe6stDfbYJGhdQSfn2SI2WfXviee7Er0yKAHE5u7FU7OWVQQQ1x3+cxdmx9NdiAkcrcA==
 
+"@fontsource-variable/lora@^5.0.18":
+  version "5.0.18"
+  resolved "https://registry.yarnpkg.com/@fontsource-variable/lora/-/lora-5.0.18.tgz#29106ed31f7585b03085119c5522e0dcbcaf5176"
+  integrity sha512-Q1FCENeJuPH2TNUM4FuGnfrxpiWqdKpJgcQc0SDfI3+xjZ+T4Ot05CqI8oGVrEZHQUzs3P0RnlgsQjxsPGzk8A==
+
 "@humanwhocodes/config-array@^0.11.14":
   version "0.11.14"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.14.tgz#d78e481a039f7566ecc9660b4ea7fe6b1fec442b"

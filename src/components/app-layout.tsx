@@ -10,7 +10,7 @@ export default function AppLayout({
     return (
         <>
             <NavBar className={navBarClassName} />
-            <main>{children}</main>
+            <main className="relative">{children}</main>
         </>
     );
 }

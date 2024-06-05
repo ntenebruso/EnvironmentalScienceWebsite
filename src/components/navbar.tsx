@@ -10,7 +10,9 @@ export default function NavBar({
             className={`z-50 bg-zinc-900 w-full ${props.className}`}
         >
             <div className="max-w-6xl px-12 py-2 mx-auto flex items-center justify-between">
-                <span className="text-3xl font-bold">Reduce EWaste</span>
+                <span className="text-3xl font-bold font-serif">
+                    Reduce E-Waste
+                </span>
                 <nav>
                     <ul className="flex items-center justify-between space-x-6 font-semibold">
                         <li>

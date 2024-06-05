@@ -38,15 +38,12 @@ export default function Hero() {
                 className="absolute top-0 left-0 w-full h-full object-cover"
             />
             <motion.div
-                className="absolute z-10 w-full h-full flex flex-col items-center justify-center"
+                className="px-3 absolute z-10 w-full h-full flex flex-col text-center items-center justify-center"
                 variants={headerAnim}
                 initial="hidden"
                 animate="visible"
             >
-                <motion.h1
-                    variants={headerItem}
-                    className="text-5xl font-bold text-center"
-                >
+                <motion.h1 variants={headerItem} className="text-5xl font-bold">
                     Reduce E-Waste.
                 </motion.h1>
                 <motion.p
