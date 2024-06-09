@@ -16,7 +16,7 @@ h6 {
 }
 
 .slideshow .slider {
-    @apply relative w-full h-full whitespace-nowrap transition-transform duration-700;
+    @apply relative w-full h-full whitespace-nowrap;
 }
 
 .slideshow .slide {
