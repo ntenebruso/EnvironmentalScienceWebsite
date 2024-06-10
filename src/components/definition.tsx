@@ -9,17 +9,16 @@ export default function Definition() {
 
     return (
         <section
-            className="h-[150vh] max-w-6xl px-12 mx-auto sticky top-0"
+            className="h-screen max-w-6xl px-12 mx-auto top-0 relative"
             ref={sectionRef}
         >
-            <div className="sticky top-0 left-0 flex md:flex-row flex-col h-screen py-8 md:space-x-24">
+            <div className="top-0 left-0 flex md:flex-row flex-col h-screen py-8 md:space-x-24">
                 <div className="md:flex-1 flex items-center justify-center">
                     <motion.h2
                         initial={{ y: 100, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.7 }}
-                        viewport={{ amount: "all" }}
-                        className="text-7xl md:text-right text-center font-bold italic"
+                        className="text-5xl md:text-7xl md:text-right text-center font-bold italic"
                     >
                         What is E-Waste?
                     </motion.h2>

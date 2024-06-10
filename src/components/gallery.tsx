@@ -22,10 +22,10 @@ function NavButtons({
                         className="text-zinc-300 hover:text-white"
                     >
                         Back
-                    </button>{" "}
-                    |{" "}
+                    </button>
                 </>
             )}
+            {index > 0 && index < numSlides - 1 && <> | </>}
             {index < numSlides - 1 && (
                 <button
                     onClick={nextSlide}
@@ -172,6 +172,36 @@ export default function Gallery() {
                                 setIsOpen={setIsOpen}
                             />
 
+                            <NavButtons
+                                nextSlide={nextSlide}
+                                prevSlide={prevSlide}
+                                index={index}
+                                numSlides={numSlides}
+                            />
+                        </motion.div>
+                    </div>
+                    <div className="slide bg-[url('/assets/ewaste4.jpeg')] bg-cover">
+                        <motion.div
+                            initial={{ opacity: 0 }}
+                            whileInView={{ opacity: 1 }}
+                            transition={{ duration: 0.7 }}
+                            viewport={{ amount: "all" }}
+                            className="absolute right-[5%] ml-[5%] top-[5%] max-w-lg z-50 bg-zinc-950/70 backdrop-blur-lg p-5 rounded-md"
+                        >
+                            <h2 className="font-bold text-4xl">The Problem</h2>
+                            <p className="mt-4">
+                                These unsafe disposal methods have led to
+                                E-waste plants in less developed countries being
+                                some of the most toxic areas in the world, as
+                                toxicants such as lead and mercury are released
+                                when recycling E-waste improperly, which then
+                                contaminate water streams and pollute the air.
+                                Additionally, these toxicants have detrimental
+                                effects on human health. According to the WHO,
+                                high exposure to lead and mercury may heavily
+                                disrupt pregnancy, the central nervous system,
+                                and the structural development of the lungs.
+                            </p>
                             <NavButtons
                                 nextSlide={nextSlide}
                                 prevSlide={prevSlide}

@@ -2,6 +2,7 @@ import AppLayout from "../components/app-layout";
 import Hero from "../components/hero";
 import Definition from "../components/definition";
 import Gallery from "../components/gallery";
+import Solutions from "../components/solutions";
 
 export default function HomePage() {
     return (
@@ -9,6 +10,7 @@ export default function HomePage() {
             <Hero />
             <Definition />
             <Gallery />
+            <Solutions />
         </AppLayout>
     );
 }
