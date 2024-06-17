@@ -11,7 +11,7 @@ export default function NavBar({
     return (
         <header
             {...props}
-            className={`z-50 bg-zinc-900 w-full ${props.className}`}
+            className={`z-50 bg-zinc-950 w-full ${props.className}`}
         >
             <div className="max-w-6xl px-6 py-2 mx-auto flex items-center justify-between">
                 <span className="inline-block text-3xl font-bold font-serif">
@@ -39,7 +39,7 @@ export default function NavBar({
                         </svg>
                     </button>
                     <ul
-                        className={`font-semibold flex flex-col md:flex-row items-center justify-center md:justify-between md:space-x-6 fixed md:relative top-0 left-0 w-screen md:w-fit bg-zinc-900 z-50 text-xl md:text-base ${
+                        className={`font-semibold flex flex-col md:flex-row items-center justify-center md:justify-between md:space-x-6 fixed md:relative top-0 left-0 w-screen md:w-fit bg-zinc-950 z-50 text-xl md:text-base ${
                             isOpen ? "translate-y-0" : "-translate-y-full"
                         } md:translate-y-0`}
                     >

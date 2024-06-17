@@ -69,7 +69,7 @@ export default function Gallery() {
 
     return (
         <section ref={containerRef}>
-            <div className="slideshow h-screen w-screen bg-zinc-900">
+            <div className="slideshow h-screen bg-zinc-900">
                 <div className="buttons absolute bottom-2 right-2 z-50 flex space-x-2">
                     <button
                         className="text-lg bg-zinc-900 hover:bg-zinc-950 w-8 h-8 rounded-full"
@@ -165,10 +165,10 @@ export default function Gallery() {
                                 </span>{" "}
                                 of their E-waste to developing countries, where
                                 these harmful methods of disposal are used due
-                                to a lack proper government safety regulations,
-                                training, and infrastructure. This number is
-                                expected to rise significantly as the use of
-                                technology grows in developed countries.
+                                to a lack of proper government safety
+                                regulations, training, and infrastructure. This
+                                number is expected to rise significantly as the
+                                use of technology grows in developed countries.
                             </p>
                             <button
                                 className="mt-4 text-lg bg-green-600 font-bold px-2 py-1 rounded-lg"
